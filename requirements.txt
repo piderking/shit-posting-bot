@@ -1,0 +1,8 @@
+uuid
+requests
+fastapi
+uvicorn[standard]
+tinydb
+pydantic
+yt_dlp
+instagrapi
