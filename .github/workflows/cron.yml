@@ -3,7 +3,7 @@ name: Run cron.py
 on:
   workflow_dispatch: # allow manual trigger
   schedule:
-    - cron: "0 * * * *" # runs every hour (UTC)
+    - cron: "0 * * *" # runs every day (UTC)
 
 jobs:
   run-cron:
